@@ -1,0 +1,5 @@
+" Complete function body with right brace
+inoremap {<Return> {<Return>}<Esc>O
+
+" Insert breakpoint for pdb
+autocmd FileType python noremap ;bug Oimport<Space>pdb;<Space>pdb.set_trace()<Esc>
