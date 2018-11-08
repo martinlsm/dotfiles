@@ -7,3 +7,6 @@ autocmd FileType python noremap ;bug Oimport<Space>pdb;<Space>pdb.set_trace()<Es
 " newlines without going into insert mode
 noremap å o<Esc>
 noremap Å O<Esc>
+
+" When escape is too far away
+inoremap jj <Esc>           
