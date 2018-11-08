@@ -9,7 +9,7 @@ noremap <F10> :split<Space>.<Return>
 " Complete function body with right brace
 inoremap {<Return> {<Return>}<Esc>O
 
-" Insert breakpoint for pdb
+" Insert breakpoint for pdb (Python Debugger)
 autocmd FileType python noremap ;bug Oimport<Space>pdb;<Space>pdb.set_trace()<Esc>
 
 " newlines without going into insert mode
