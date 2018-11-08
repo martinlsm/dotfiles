@@ -1,3 +1,7 @@
+# Numbered lines
+set number      
+
+
 " Complete function body with right brace
 inoremap {<Return> {<Return>}<Esc>O
 
