@@ -1,6 +1,10 @@
 # Numbered lines
-set number      
+set number
+set bg=dark
+colorscheme elflord
 
+" Open the file tree as a new window 
+noremap <F10> :split<Space>.<Return> 
 
 " Complete function body with right brace
 inoremap {<Return> {<Return>}<Esc>O
