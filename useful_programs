@@ -1,0 +1,11 @@
+# Theme editor
+https://github.com/dylanaraps/pywal
+
+# Window manager
+https://i3wm.org/
+
+# For Debian-based systems
+sudo apt install zathura
+sudo apt install ranger
+sudo apt install tmux
+sudo apt install dmenu
