@@ -17,4 +17,7 @@ noremap å o<Esc>
 noremap Å O<Esc>
 
 " When escape is too far away
-inoremap jj <Esc>           
+inoremap jj <Esc>
+
+" For Latex editing
+autocmd FileType tex,latex set wrap
