@@ -13,3 +13,6 @@ PS1="\[\033[01;34m\]\w\[\033[01;00m\]$ "
 
 # Command prompt non-colored
 PS1="\w$ "
+
+# grep for a process of top
+alias topgrep="top -b -n 1 | grep -i"
