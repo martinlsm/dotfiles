@@ -1,3 +1,20 @@
+call plug#begin('~/.vim/plugged')
+" List plugins here
+
+" Airline bar
+Plug 'vim-airline/vim-airline'
+" Themes for Airline
+Plug 'vim-airline/vim-airline-themes'
+
+" Themes
+Plug 'morhetz/gruvbox'
+Plug 'tyrannicaltoucan/vim-deep-space'
+
+" Make color themes work in terminal vim
+Plug 'godlygeek/csapprox'
+
+call plug#end()                          
+
 # Numbered lines
 set number
 set bg=dark
