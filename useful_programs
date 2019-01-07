@@ -9,3 +9,5 @@ sudo apt install zathura
 sudo apt install ranger
 sudo apt install tmux
 sudo apt install dmenu
+sudo apt install i3
+sudo apt install i3blocks
