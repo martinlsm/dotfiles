@@ -18,6 +18,7 @@ call plug#end()
 " Numbered lines
 set number
 set bg=dark
+set ignorecase
 
 " Open the file tree as a new window 
 noremap <F10> :split<Space>.<Return> 
