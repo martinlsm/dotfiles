@@ -38,3 +38,6 @@ inoremap jj <Esc>
 
 " For Latex editing
 autocmd FileType tex,latex set wrap
+
+" Compile the current .tex-file to produce a pdf
+autocmd BufNewFile,BufRead *.tex noremap <F12> :w<Return>:!pdflatex %<Return>
