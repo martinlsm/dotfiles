@@ -15,10 +15,9 @@ Plug 'godlygeek/csapprox'
 
 call plug#end()                          
 
-# Numbered lines
+" Numbered lines
 set number
 set bg=dark
-colorscheme elflord
 
 " Open the file tree as a new window 
 noremap <F10> :split<Space>.<Return> 
