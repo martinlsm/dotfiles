@@ -29,6 +29,10 @@ inoremap {<Return> {<Return>}<Esc>O
 " Insert breakpoint for pdb (Python Debugger)
 autocmd FileType python noremap ;bug Oimport<Space>pdb;<Space>pdb.set_trace()<Esc>
 
+" Go to beginning/ending of line
+noremap ö _
+noremap Ö $
+
 " newlines without going into insert mode
 noremap å o<Esc>
 noremap Å O<Esc>
