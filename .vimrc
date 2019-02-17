@@ -35,9 +35,14 @@ noremap Å O<Esc>
 
 " When escape is too far away
 inoremap jj <Esc>
+inoremap <c-k> <Esc>
 
 " For Latex editing
 autocmd FileType tex,latex set wrap
 
 " Compile the current .tex-file to produce a pdf
 autocmd BufNewFile,BufRead *.tex noremap <F12> :w<Return>:!pdflatex %<Return>
+
+" Better row navigation for .tex files
+autocmd BufNewFile,BufRead *.tex noremap j gj
+autocmd BufNewFile,BufRead *.tex noremap k gk
