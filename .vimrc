@@ -13,9 +13,13 @@ Plug 'tyrannicaltoucan/vim-deep-space'
 " Make color themes work in terminal vim
 Plug 'godlygeek/csapprox'
 
-call plug#end()                          
+call plug#end()
+
+" Needed for YCM
+let g:ycm_global_ycm_extra_conf = '$HOME/.vim/bundle/YouCompleteMe/.ycm_extra_conf.py'
 
 " Numbered lines
+set nowrap
 set number
 set bg=dark
 set ignorecase
@@ -43,6 +47,13 @@ inoremap <c-k> <Esc>
 
 " For Latex editing
 autocmd FileType tex,latex set wrap
+
+" Better row navigation for .tex files
+autocmd BufNewFile,BufRead *.tex noremap j gj
+autocmd BufNewFile,BufRead *.tex noremap k gk
+
+" Tab indentation for c, cpp, and headers
+autocmd FileType c,cpp,h set noet
 
 " Compile the current .tex-file to produce a pdf
 autocmd BufNewFile,BufRead *.tex noremap <F12> :w<Return>:!pdflatex %<Return>
