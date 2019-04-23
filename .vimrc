@@ -45,6 +45,9 @@ noremap Å O<Esc>
 inoremap jj <Esc>
 inoremap <c-k> <Esc>
 
+" Html tag generator
+autocmd FileType html,php inoremap <C-Space> ><Esc>bywi<<Esc>o</<Esc>pa><Esc>O
+
 " For Latex editing
 autocmd FileType tex,latex set wrap
 
