@@ -45,6 +45,9 @@ noremap Å O<Esc>
 inoremap jj <Esc>
 inoremap <c-k> <Esc>
 
+" Remove nasty trailing whitespaces
+noremap <F11> :%s/\s\+$//e<Return>
+
 " Html tag generator
 autocmd FileType html,php inoremap <C-Space> ><Esc>bywi<<Esc>o</<Esc>pa><Esc>O
 
