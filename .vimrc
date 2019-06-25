@@ -53,6 +53,7 @@ autocmd FileType html,php inoremap <C-Space> ><Esc>bywi<<Esc>o</<Esc>pa><Esc>O
 
 " For Latex editing
 autocmd FileType tex,latex set wrap
+autocmd FileType tex,latex set spell
 
 " Better row navigation for .tex files
 autocmd BufNewFile,BufRead *.tex noremap j gj
